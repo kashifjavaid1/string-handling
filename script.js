@@ -1,3 +1,18 @@
+// length
+// slice
+// replace
+// touppcase and lowercase
+// trim
+// charAt
+// indexof
+// split
+
+
+
+
+
+
+
 // string lenght find
 // var abc="i love pakistan my country is beautiful place"
 // var getstringlength=abc.length
@@ -51,8 +66,29 @@
 // var result=ab.concat(bc);
 // console.log(result);
  
-var stringvar="kashifjavaid";
-var ab=stringvar.charAt(2);
-var a=stringvar.replace("a","M");
-console.log(a);
-// console.log(ab);
+// var stringvar="kashifjavaid";
+// var ab=stringvar.charAt(2);
+// var a=stringvar.replace("a","M");
+// console.log(a);
+// // console.log(ab);
+
+
+// writa a js program to convert numbers "1,2,3,4,5,6,7,8,9,10" to string into array??
+
+// var number="1,2,3,4,5,6,7,8,9,10";
+// console.log("convert array",number.split(","));
+// for (let index = 0; index < number.length; index++) {
+//     const element = number[index];
+//     console.log("element",parseInt(element));
+    
+// }
+var numbervar="1,2,3,4,5,6";
+var res=numbervar.split(",");
+var numbers=[]
+// conver number
+for (let index = 0; index < res.length; index++) {
+    const element = res[index];
+    console.log("element",parseInt(element));
+    numbers.push(parseInt(element));
+}
+console.log(numbers);
