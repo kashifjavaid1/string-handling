@@ -16,6 +16,13 @@
 
 // replace word
 
-var abc="i,love,pakistan,my country is beautiful place";
-var elemant= abc.replace("pakistan","PAKISTAN")
-console.log(elemant);
+// var abc="i,love,pakistan,my country is beautiful place";
+// var elemant= abc.replace("pakistan","PAKISTAN")
+// console.log(elemant);
+
+// write a jvascript program to string convert uppercase
+
+var ab="my name is kashif.i am a software develpoer";
+var bc=ab.toLocaleUpperCase();
+console.log(bc);
+
