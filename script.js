@@ -30,14 +30,29 @@
 
 // 
 // write a js program check weather day sun or not
-var user = prompt("Enter day");
+// var user = prompt("Enter day");
 
-function day() {
-   if (user.toLowerCase() == 'sunday') {
-      console.log("Sunday");
-   } else {
-      console.log("Not Sunday");
-   }
-}
+// function day() {
+//    if (user.toLowerCase() == 'sunday') {
+//       console.log("Sunday");
+//    } else {
+//       console.log("Not Sunday");
+//    }
+// }
 
-day();
+// day();
+
+// remove space trim
+
+// var abc="kashif javaid ";
+// console.log(abc.trim());
+// var ab="i love";
+// var bc="pakistan";
+// var result=ab.concat(bc);
+// console.log(result);
+ 
+var stringvar="kashifjavaid";
+var ab=stringvar.charAt(2);
+var a=stringvar.replace("a","M");
+console.log(a);
+// console.log(ab);
