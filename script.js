@@ -25,4 +25,6 @@
 var ab="my name is kashif.i am a software develpoer";
 var bc=ab.toLocaleUpperCase();
 console.log(bc);
+var a=ab.toLocaleLowerCase()
+console.log(a);
 
