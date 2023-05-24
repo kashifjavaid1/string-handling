@@ -132,4 +132,12 @@ var strlength="kashif javaid";
 // replace
 // console.log(strlength.replace("kashif","Muhammad kashif"));
 // console.log(strlength.toLocaleLowerCase());
-console.log(strlength.toLocaleUpperCase());
+// console.log(strlength.toLocaleUpperCase());
+// write a js program check weather day sun or not?
+var day=prompt("ENter any day");
+if (day.toLocaleLowerCase()=='sunday') {
+    console.log("today is sunday");
+}
+else{
+    console.log("today is not sunday");
+}
