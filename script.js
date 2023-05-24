@@ -126,5 +126,8 @@
 var strlength="kashif javaid";
 // console.log(strlength.length);
 
-var res=strlength.slice(1,9);
-console.log(res);
+// var res=strlength.slice(1,9);
+// console.log(res);
+
+// replace
+console.log(strlength.replace("kashif","Muhammad kashif"));
