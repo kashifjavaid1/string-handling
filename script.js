@@ -1,41 +1,41 @@
 // length  (length find)
 // slice   (start end values find value) 
-var abc="i,love,pakistan,my country is beautiful place";
-var elemant= abc.slice(7,15)
-console.log(elemant);
+// var abc="i,love,pakistan,my country is beautiful place";
+// var elemant= abc.slice(7,15)
+// console.log(elemant);
 
 // replace  ("replace valuse" ,replace output)
-var abc="i,love,pakistan,my country is beautiful place";
-var elemant= abc.replace("pakistan","PAKISTAN")
-console.log(elemant);
+// var abc="i,love,pakistan,my country is beautiful place";
+// var elemant= abc.replace("pakistan","PAKISTAN")
+// console.log(elemant);
 
 // touppcase and lowercase
-var ab="my name is kashif.i am a software develpoer";
-var bc=ab.toLocaleUpperCase();
-console.log(bc);
-var a=ab.toLocaleLowerCase()
-console.log(a);
+// var ab="my name is kashif.i am a software develpoer";
+// var bc=ab.toLocaleUpperCase();
+// console.log(bc);
+// var a=ab.toLocaleLowerCase()
+// console.log(a);
 
 // trim      (space stop)
-var abc="kashif javaid ";
-console.log(abc.trim());
+// var abc="kashif javaid ";
+// console.log(abc.trim());
 
 // charAt    (find the charachter)
-var stringvar="kashifjavaid";
-var ab=stringvar.charAt(2);
+// var stringvar="kashifjavaid";
+// var ab=stringvar.charAt(2);
 
-// indexof     
-// split
-var numbervar="1,2,3,4,5,6";
-var res=numbervar.split(",");
-var numbers=[]
-// conver number
-for (let index = 0; index < res.length; index++) {
-    const element = res[index];
-    console.log("element",parseInt(element));
-    numbers.push(parseInt(element));
-}
-console.log(numbers);
+// // indexof     
+// // split
+// var numbervar="1,2,3,4,5,6";
+// var res=numbervar.split(",");
+// var numbers=[]
+// // conver number
+// for (let index = 0; index < res.length; index++) {
+//     const element = res[index];
+//     console.log("element",parseInt(element));
+//     numbers.push(parseInt(element));
+// }
+// console.log(numbers);
 
 
 
@@ -111,13 +111,20 @@ console.log(numbers);
 //     console.log("element",parseInt(element));
     
 // }
-var numbervar="1,2,3,4,5,6";
-var res=numbervar.split(",");
-var numbers=[]
-// conver number
-for (let index = 0; index < res.length; index++) {
-    const element = res[index];
-    console.log("element",parseInt(element));
-    numbers.push(parseInt(element));
-}
-console.log(numbers);
+// var numbervar="1,2,3,4,5,6";
+// var res=numbervar.split(",");
+// var numbers=[]
+// // conver number
+// for (let index = 0; index < res.length; index++) {
+//     const element = res[index];
+//     console.log("element",parseInt(element));
+//     numbers.push(parseInt(element));
+// }
+// console.log(numbers);
+
+// length
+var strlength="kashif javaid";
+// console.log(strlength.length);
+
+var res=strlength.slice(1,9);
+console.log(res);
