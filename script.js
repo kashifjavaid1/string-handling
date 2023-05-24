@@ -123,7 +123,9 @@
 // console.log(numbers);
 
 // length
-var strlength="kashif javaid";
+// var strlength="   1)kashif javaid";
+// trim
+// console.log(strlength.trim());
 // console.log(strlength.length);
 
 // var res=strlength.slice(1,9);
@@ -134,10 +136,14 @@ var strlength="kashif javaid";
 // console.log(strlength.toLocaleLowerCase());
 // console.log(strlength.toLocaleUpperCase());
 // write a js program check weather day sun or not?
-var day=prompt("ENter any day");
-if (day.toLocaleLowerCase()=='sunday') {
-    console.log("today is sunday");
-}
-else{
-    console.log("today is not sunday");
-}
+// var day=prompt("ENter any day");
+// if (day.toLocaleLowerCase()=='sunday') {
+//     console.log("today is sunday");
+// }
+// else{
+//     console.log("today is not sunday");
+// }
+
+var strlength="1)kashif javaid";
+var res=strlength.charAt(3);
+console.log(res);
