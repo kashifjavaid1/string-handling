@@ -130,4 +130,6 @@ var strlength="kashif javaid";
 // console.log(res);
 
 // replace
-console.log(strlength.replace("kashif","Muhammad kashif"));
+// console.log(strlength.replace("kashif","Muhammad kashif"));
+// console.log(strlength.toLocaleLowerCase());
+console.log(strlength.toLocaleUpperCase());
