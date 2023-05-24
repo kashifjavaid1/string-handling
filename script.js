@@ -144,6 +144,21 @@
 //     console.log("today is not sunday");
 // }
 
-var strlength="1)kashif javaid";
-var res=strlength.charAt(3);
-console.log(res);
+// var strlength="1)kashif javaid";
+// var res=strlength.charAt(3);
+// console.log(res);
+
+// var char="Muhammad kashif javaid";
+// var char1=char.charAt(9);
+// console.log(char1);
+// integer find and array create
+var arr= "1,2,3,4,5,6,7,8,9,10";
+var res=arr.split(",")
+var array1=[];
+for (let index = 0; index < res.length; index++) {
+    const element = res[index];
+    
+console.log("element",element);
+array1.push(parseInt(element))
+}
+console.log(array1);
