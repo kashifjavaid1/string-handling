@@ -152,13 +152,16 @@
 // var char1=char.charAt(9);
 // console.log(char1);
 // integer find and array create
-var arr= "1,2,3,4,5,6,7,8,9,10";
-var res=arr.split(",")
-var array1=[];
-for (let index = 0; index < res.length; index++) {
-    const element = res[index];
+// var arr= "1,2,3,4,5,6,7,8,9,10";
+// var res=arr.split(",")
+// var array1=[];
+// for (let index = 0; index < res.length; index++) {
+//     const element = res[index];
     
-console.log("element",element);
-array1.push(parseInt(element))
-}
-console.log(array1);
+// console.log("element",element);
+// array1.push(parseInt(element))
+// }
+// console.log(array1);
+var stringvar="webmobileapplication"
+var res=stringvar.length();
+console.log(res);
