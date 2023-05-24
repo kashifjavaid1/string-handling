@@ -163,5 +163,6 @@
 // }
 // console.log(array1);
 var stringvar="webmobileapplication"
-var res=stringvar.length();
-console.log(res);
+console.log(stringvar.slice(3,9));
+// var res=stringvar.length();
+// console.log(res);
